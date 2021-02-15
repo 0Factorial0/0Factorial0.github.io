@@ -1,121 +1,76 @@
+<!DOCTYPE HTML5>
+
+<html>
+
 <head>
 
-    <title>HAHACOPTER!</title>
-    <link rel="shortcut icon" href="https://i.gifer.com/BYNv.gif"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Weekday!</title>
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="main.js"></script>
 
 </head>
 
-<style>
+<body bgcolor="#fffdd0" onload="check()">
 
-    body{
+<div id="page">
 
-        background-image: url("https://media.tenor.com/images/026e2ff33b229671d579dd512dcac521/tenor.gif");
+<div id="header" style="border: 1px solid black;">Weekday!</div>
 
-    }
+<div id="middle-left">
+	
+	<button onclick="setWeekday()">Weekday</button>
+	<button onclick="setWeekend()">Weekend</button>
 
-    #box{
+</div>
 
-        width: 100%;
-        height: 75%;
-        text-align: center;
+<div id="time">
 
-    }
+	<div id="time0"></div>
+	<div id="time1"><p id="time_">00:00:00</p></div>	
 
-    p{
+</div>
 
-        font-size: 20px;
-        text-shadow: 5px 5px 5px red;
-        color: black;
-    
-    }
+<div id="middle-right">
+	
+	<button onclick="setEpigra()">Epigra</button>
 
-    h1{
+</div>
 
-        text-shadow: 5px 5px 5px red;
-        color: black;
-    }
+<div id="now">
+	
+	<div id="now0"><h1>Now:</h1></div>
 
-</style>
+	<div id="now1"><p id="now_">------------------------</p></div>
 
-<script>
+</div>
 
-    function fun(){
-              
-        var counter = 0;
-        var i = setInterval(function(){
-            document.getElementById('text0').innerText = document.getElementById('text0').innerText + "HAHA!";
-            document.getElementById('text1').innerText = document.getElementById('text1').innerText + "HAHA!";
-            counter++;
-            if(counter === 10) {
-                clearInterval(i);
-                fun2();
-            }
-        }, 200);
+<div id="remaining">
+		
+	<div id="remaining0"><h1>Remaining:</h1></div>
 
-    }
+	<div id="remaining1"><p id="remaining_">00:00</p></div>
 
-    function fun2(){
+</div>
 
-        var counter = 0;
-        var i = setInterval(function(){
-            document.getElementById('text0').innerText = document.getElementById('text0').innerText + "HAHA!";
-            document.getElementById('text01').innerText = document.getElementById('text01').innerText + "HAHA!";
-            document.getElementById('text02').innerText = document.getElementById('text02').innerText + "HAHA!";
-            document.getElementById('text1').innerText = document.getElementById('text1').innerText + "HAHA!";
-            document.getElementById('text2').innerText = document.getElementById('text2').innerText + "HAHA!";
-            document.getElementById('text3').innerText = document.getElementById('text3').innerText + "HAHA!";
-            document.getElementById('text4').innerText = document.getElementById('text4').innerText + "HAHA!";
-            document.getElementById('text5').innerText = document.getElementById('text5').innerText + "HAHA!";
-            document.getElementById('text6').innerText = document.getElementById('text6').innerText + "HAHA!";
-            document.getElementById('text7').innerText = document.getElementById('text7').innerText + "HAHA!";
-            document.getElementById('text8').innerText = document.getElementById('text8').innerText + "HAHA!";
-            document.getElementById('text9').innerText = document.getElementById('text9').innerText + "HAHA!";
-            document.getElementById('text10').innerText = document.getElementById('text10').innerText + "HAHA!";
-            document.getElementById('text11').innerText = document.getElementById('text11').innerText + "HAHA!";
-            document.getElementById('text12').innerText = document.getElementById('text12').innerText + "HAHA!";
-            counter++;
-            if(counter === 200) {
-                clearInterval(i);
-            }
-        }, 30);
+<div id="next">
+	
+	<div id="next0"><h1>Next: </h1></div>
 
-    }
+	<div id="next1"><p id="next_">------------------------</p></div>
 
-</script>
+</div>
 
-<body bgcolor="black" onload="fun()">
+<div id="footer">
 
-    <h1 id="text0"></h1>
-    <h1 id="text01"></h1>
-    <h1 id="text02"></h1>
-    <div id="box" class="container">
-        <div class="row">
-            <div class="col-md">
-                <p style="width: 500px"id="text1"></p>
-                <p style="width: 500px"id="text2"></p>
-                <p style="width: 500px"id="text3"></p>
-                <p style="width: 500px"id="text4"></p>
-                <p style="width: 500px"id="text5"></p>
-                <p style="width: 500px"id="text6"></p>
-                <p style="width: 500px"id="text7"></p>
-                <p style="width: 500px"id="text8"></p>
-                <p style="width: 500px"id="text9"></p>
-                <p style="width: 500px"id="text10"></p>
-                <p style="width: 500px"id="text11"></p>
-                <p style="width: 500px"id="text12"></p>
-            </div>
-        </div>
-    </div>
+<div id="footer-grid"></div>
 
-    <div style="background-color: green; color: red; text-shadow: 5px 5px 5px blue;" class="footer-copyright text-center py-3">&copy; 2020 Happyright:
+	&copy; All Copyrights Reserved CC(2020)
 
-        <a style="color: white" href="https://rulesoftheinternet.com/"> Whocares.com</a>
+</div>
 
-    </div>
+</div>
 
 </body>
+
+</html>
