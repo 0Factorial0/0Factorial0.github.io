@@ -16,6 +16,22 @@ function setWeekend(){
 	
 }
 
+function setWeekday1(){
+
+	wiccweek = "weekday";
+	document.getElementById("header").innerHTML = "Weekday!";
+	check_timeforlist();
+
+}
+
+function setWeekend1(){
+
+	wiccweek = "weekend";
+	document.getElementById("header").innerHTML = "Weekend!";
+	check_timeforlist();
+	
+}
+
 function setEpigra(){
 
 	wiccweek = "epigra";
