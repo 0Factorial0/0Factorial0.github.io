@@ -368,11 +368,11 @@ var weekday1_works = [
 "Sleep","Sleep","Sleep","Sleep","Sleep",
 "Sleep","Sleep","Sleep",
 
-"Wake Up","Wake Up","Wake Up","Wake Up",    //06:00 - 07:00 4 Wake Up
+"Sleep","Sleep","Sleep","Sleep",    		//06:00 - 07:00 4 Sleep
 
-"Eat","Eat",                                //07:00 - 07:30 2 Eat
+"Sleep","Sleep",                            //07:00 - 07:30 2 Sleep
 
-"Workout","Workout",                        //7:30 - 8:00 2 Workout
+"Sleep","Sleep",                        	//7:30 - 8:00 2 Sleep
 
 "Work1","Work1","Work1","Break1",           //8:00 - 12:00 12 Work 4 Break
 "Work2","Work2","Work2","Break2",
@@ -420,11 +420,11 @@ var weekend1_works = [
 "Sleep","Sleep","Sleep","Sleep","Sleep",
 "Sleep","Sleep","Sleep",
 
-"Wake Up","Wake Up","Wake Up","Wake Up",    //06:00 - 07:00 4 Wake Up
+"Sleep","Sleep","Sleep","Sleep",    		//06:00 - 07:00 4 Sleep
 
-"Eat","Eat",                                //07:00 - 07:30 2 Eat
+"Sleep","Sleep",                            //07:00 - 07:30 2 Sleep
 
-"Workout","Workout",                        //7:30 - 8:00 2 Workout
+"Sleep","Sleep",                        	//7:30 - 8:00 2 Sleep
 
 "Work1","Work1","Work1","Break1",           //8:00 - 12:00 12 Work 4 Break
 "Work2","Work2","Work2","Break2",
