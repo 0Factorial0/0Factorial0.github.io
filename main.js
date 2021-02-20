@@ -372,7 +372,7 @@ var weekday1_works = [
 
 "Sleep","Sleep",                            //07:00 - 07:30 2 Sleep
 
-"Sleep","Sleep",                        	//7:30 - 8:00 2 Sleep
+"Eat","Workout",                        	//7:30 - 8:00 2 Sleep
 
 "Work1","Work1","Work1","Break1",           //8:00 - 12:00 12 Work 4 Break
 "Work2","Work2","Work2","Break2",
@@ -424,7 +424,7 @@ var weekend1_works = [
 
 "Sleep","Sleep",                            //07:00 - 07:30 2 Sleep
 
-"Sleep","Sleep",                        	//7:30 - 8:00 2 Sleep
+"Eat","Workout",                        	//7:30 - 8:00 2 Sleep
 
 "Work1","Work1","Work1","Break1",           //8:00 - 12:00 12 Work 4 Break
 "Work2","Work2","Work2","Break2",
