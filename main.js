@@ -32,10 +32,10 @@ function setWeekend1(){
 	
 }
 
-function setEpigra(){
+function sete(){
 
-	wiccweek = "epigra";
-	document.getElementById("header").innerHTML = "Week Epigra!";
+	wiccweek = "e";
+	document.getElementById("header").innerHTML = "Week e!";
 	check_timeforlist();
 	
 }
@@ -115,7 +115,7 @@ function check_timeremaining(){
 
 		index = all15+1;
 
-	}else if(wiccweek == "epigra"){
+	}else if(wiccweek == "e"){
 
 		index = all15+1;
 
@@ -223,13 +223,13 @@ function check_timeforlist(){
 		document.getElementById("now_").innerHTML = weekend1_works[all15];
 		document.getElementById("next_").innerHTML = weekend1_works[all15+1];
 
-	}else if(wiccweek == "epigra"){
+	}else if(wiccweek == "e"){
 
-		var now_work = epigra_works[all15];
+		var now_work = e_works[all15];
 		console.log("work= "+now_work);
 
-		document.getElementById("now_").innerHTML = epigra_works[all15];
-		document.getElementById("next_").innerHTML = epigra_works[all15+1];
+		document.getElementById("now_").innerHTML = e_works[all15];
+		document.getElementById("next_").innerHTML = e_works[all15+1];
 
 	}else{
 
@@ -466,7 +466,7 @@ var weekend1_works = [
 
 ];
 
-var epigra_works = [
+var e_works = [
 
 "Sleep",
 
@@ -485,23 +485,23 @@ var epigra_works = [
 "Work1","Work1","Work1","Break1",           //7:30 - 9:30 6 Work 2 Break
 "Work2","Work2","Work2","Break2",
 
-"Hey! it's Epigra","Hey! it's Epigra",     	//9:30 - 18:00 34 Epigra
-"Hey! it's Epigra","Hey! it's Epigra",
-"Hey! it's Epigra","Hey! it's Epigra",
-"Hey! it's Epigra","Hey! it's Epigra",
-"Hey! it's Epigra","Hey! it's Epigra",
-"Hey! it's Epigra","Hey! it's Epigra",
-"Hey! it's Epigra","Hey! it's Epigra",
-"Hey! it's Epigra","Hey! it's Epigra",
-"Hey! it's Epigra","Hey! it's Epigra",
-"Hey! it's Epigra","Hey! it's Epigra",
-"Hey! it's Epigra","Hey! it's Epigra",
-"Hey! it's Epigra","Hey! it's Epigra",
-"Hey! it's Epigra","Hey! it's Epigra",
-"Hey! it's Epigra","Hey! it's Epigra",
-"Hey! it's Epigra","Hey! it's Epigra",
-"Hey! it's Epigra","Hey! it's Epigra",
-"Hey! it's Epigra","Hey! it's Epigra",
+"e","e",     	//9:30 - 18:00 34 e
+"e","e",
+"e","e",
+"e","e",
+"e","e",
+"e","e",
+"e","e",
+"e","e",
+"e","e",
+"e","e",
+"e","e",
+"e","e",
+"e","e",
+"e","e",
+"e","e",
+"e","e",
+"e","e",
 
 "Long Break","Long Break",					//18:00 - 19:00 4 Long Break
 "Long Break","Long Break",
