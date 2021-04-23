@@ -32,15 +32,6 @@ function setWeekend1(){
 	
 }
 
-function sete(){
-
-	wiccweek = "e";
-	document.getElementById("header").innerHTML = "Week e!";
-	check_timeforlist();
-	
-}
-
-
 function check(){
 
 	check_timeforlist();
@@ -463,59 +454,6 @@ var weekend1_works = [
 "Book / Free Time","Book / Free Time",
 
 "Sleep","Sleep","Sleep","Sleep"            //23:00 - 24:00 4 Sleep
-
-];
-
-var e_works = [
-
-"Sleep",
-
-"Sleep","Sleep","Sleep","Sleep","Sleep",    //00:00 - 06:00 1+23 Sleep
-"Sleep","Sleep","Sleep","Sleep","Sleep",
-"Sleep","Sleep","Sleep","Sleep","Sleep",
-"Sleep","Sleep","Sleep","Sleep","Sleep",
-"Sleep","Sleep","Sleep",
-
-"Wake Up","Wake Up",					    //06:00 - 06:30 2 Wake Up
-
-"Eat","Eat",                                //06:30 - 07:00 2 Eat
-
-"Workout","Workout",                        //7:00 - 7:30 2 Workout
-
-"Work1","Work1","Work1","Break1",           //7:30 - 9:30 6 Work 2 Break
-"Work2","Work2","Work2","Break2",
-
-"e","e",     	//9:30 - 18:00 34 e
-"e","e",
-"e","e",
-"e","e",
-"e","e",
-"e","e",
-"e","e",
-"e","e",
-"e","e",
-"e","e",
-"e","e",
-"e","e",
-"e","e",
-"e","e",
-"e","e",
-"e","e",
-"e","e",
-
-"Long Break","Long Break",					//18:00 - 19:00 4 Long Break
-"Long Break","Long Break",
-
-"Work3","Work3","Work3","Break3",           //19:00 - 20:00 3 Work 1 Break
-
-"Eat","Eat","Eat","Eat",                    //20:00 - 21:00 4 Eat
-
-"Work4","Work4","Work4","Break4",      		//21:00 - 22:00 3 Work 1 Break
-
-"Book / Free Time","Book / Free Time",      //22:00 - 23:00 4 Book / Free Time
-"Book / Free Time","Book / Free Time",
-
-"Sleep","Sleep","Sleep","Sleep"             //23:00 - 24:00 4 Sleep
 
 ];
 
