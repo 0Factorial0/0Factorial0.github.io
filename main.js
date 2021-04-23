@@ -106,10 +106,6 @@ function check_timeremaining(){
 
 		index = all15+1;
 
-	}else if(wiccweek == "e"){
-
-		index = all15+1;
-
 	}else{
 
 		console.log("ERROR AT GET LIST ELEMENT AT CHECK REMAINING");
@@ -213,14 +209,6 @@ function check_timeforlist(){
 
 		document.getElementById("now_").innerHTML = weekend1_works[all15];
 		document.getElementById("next_").innerHTML = weekend1_works[all15+1];
-
-	}else if(wiccweek == "e"){
-
-		var now_work = e_works[all15];
-		console.log("work= "+now_work);
-
-		document.getElementById("now_").innerHTML = e_works[all15];
-		document.getElementById("next_").innerHTML = e_works[all15+1];
 
 	}else{
 
